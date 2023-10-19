@@ -1,38 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manual de GiT</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <h1>Manual Git</h1>
-    <ul>
-        <li><a href="https://git-scm.com/docs/git/pt_BR"
-            target="_blank">git Documentation</a></li>
-    </ul>
+    <header>
+        <h1>Manual Git</h1>
+        <a href="https://git-scm.com/docs/git/pt_BR"
+            target="_blank">git Documentation</a>
+    </header>
+    <main>
+        <nav>
         <h2>O que é o Git?</h2>
             <p>O Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.</p>
             <h2>Funções Git</h2>
+            <h3>Mkdir</h3>
+            <p>Cria diretórios.</p>
+            <h3>Pwd</h3>
+            <p>Bussola, localiza onde estamos no código.</p>
+            <h3>Cd</h3>
+            <p>Seleciona diretório (ex: cd documents).</p>
+            <dl>
+                <dt>Cd ..</dt>
+                <dd>retorna para a pasta anterior.</dd>
+            </dl>
             <h3>Git Init</h3>
-            <p>Iniciar o monitoramento do proprio em seu repertório</p>
+            <p>Iniciar o monitoramento do proprio em seu repertório.</p>
             <h3>Git Branch</h3>
-            <p>Mostra o seu master</p>
+            <p>Mostra o seu master.</p>
+            <h3>Git Status</h3>
+            <p>Verifica o status do git, se tem algum arquivo novo.</p>
             <h3>Git Config</h3>
-            <p>Mostra e configura o git</p>
+            <p>Mostra e configura o git.</p>
             <dl>
                 <dt>Git config --global user.name "fulano"</dt>
-                <dd>Define um email para o log, ex:(fulano alterou o diretório)</dd>
+                <dd>Define um email para o log, ex:(fulano alterou o diretório).</dd>
                 <dt>Git config --global user.email "fulano@gmail.com"</dt>
-                <dd>Define o seu email para o log</dd>
+                <dd>Define o seu email para o log.</dd>
                 <dt>Git config --local</dt>
-                <dd>Apenas para um diretório escolhido</dd>
-
-
-
+                <dd>Apenas para um diretório escolhido.</dd>
+                <dt>Git config --global</dt>
+                <dd>rastreia tudo de seu usuario.</dd>
+                <dt>Git config --system</dt>
+                <dd>É para o sistema completo, para todos que tem acesso a maquina.</dd>
             </dl>
+        <h2>Git add</h2>
+            <p>Adiciona um arquivo ao rastreamento do git.</p>
+            <dl>
+                <dt>Git add .</dt>
+                <dd>Adiciona todos os arquivos do seu repertorio ao rastreamento do git.</dd>
+            </dl>
+        <h2><a href="./html/paginanova.html">Algumas outras funções GiT</a></h2>
+        </nav>
+            </main>
+            <footer>
+                <b><p>Desenvolvido por Isabella Alves</p></b>
+            </footer>
+        
+           
+        
+
 
 
     
