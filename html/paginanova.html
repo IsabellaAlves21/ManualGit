@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-Br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,45 +8,118 @@
     <title>Funções GiT</title>
     <link rel="stylesheet" href="./../css/style.css">
 </head>
+
 <body>
     <header>
         <h1>Funções Git</h1>
-        <a href="./../index.html"
-            target="_self">Voltar</a>
     </header>
     <main>
-    <h2>Git Remote</h2>
-    <p>Mostra onde os links estão localizados (ex:na main).</p>
-    <table border="1px">
-        <tr>
-            <th>Git Remote (--v) </th>
-            <td>Git Remote rm</td>
-            <th>Git Remote add</th>
-        </tr>
-        <tr>
-            <td>Mostra os links detalhados.</td>
-            <td>Remove o link.</td>
-            <td>Adiciona um link.</td>
-        </tr>
-    </table>
-    <h2>Git Log</h2>
-    <p>Acesso aos commits detalhados</p>
-    <table border="1px">
-        <tr>
-            <th>Git Log --author "fulano"</th>
-            <th>Git Log --oneline</th>
-            <th>Git Log --grep "texto"</th>
-        </tr>
-        <tr>
-            <td>Mostra o que a pessoa parte do projeto fez(<b>É uma função key sensitive, se estiver uma letra escrita diferente da original, não apresentará a pessoa pesquisada.)</b></td>
-            <td>Mostra todos os commits com poucos detalhes.</td>
-            <td>Vai aparecer tudo commitado que tenha o nome escolhido(ex:texto) se estiver diferente do escrito não aparecerá.</td>
-        </tr>
-
-    </table>
+        <h2>Git Remote</h2>
+        <p>Mostra onde os links estão localizados (ex:na main).</p>
+        <table border="1px">
+            <tr>
+                <th>Git Remote (--v) </th>
+                <td>Mostra os links detalhados.</td>
+            </tr>
+            <tr>
+                <th>Git Remote rm</th>
+                <td>Remove o link.</td>
+            </tr>
+            <tr>
+                <th>Git Remote add</th>
+                <td>Adiciona um link.</td>
+            </tr>
+        </table>
+        <h2>Git Log</h2>
+        <p>Acesso aos commits detalhados.</p>
+        <table border="1px">
+            <tr>
+                <th>Git Log--author "fulano"</th>
+                <td>Mostra o que a pessoa parte do projeto fez (<b>É uma função key sensitive, se estiver uma letra
+                        escrita diferente da original, não apresentará a pessoa pesquisada.)</b></td>
+            </tr>
+            <tr>
+                <th>Git Log--oneline</th>
+                <td>Mostra todos os commits com poucos detalhes.</td>
+            </tr>
+            <tr>
+                <th>Git log --grep"commit"</th>
+                <td>Vai aparecer os commits que tenham o nome igual(ex:commit)se estiver alguma letra escrita diferente
+                    não aparecerá o pesquisado.</td>
+            </tr>
+            <tr>
+                <th>Git shortlog</th>
+                <td>Log resumido, mostra o que foi feito e o que todos realizaram.</td>
+            </tr>
+        </table>
+        <h2>Git commit -m</h2>
+        <p>Envia o código com mensagem</p>
+        <dl>
+            <dt>Git commit -a -m</dt>
+            <dd>Commit de forma rápida.</dd>
+            <dt>Git commit -amend -m""</dt>
+            <dd>Troca a mensagem do commit anterior.</dd>
+        </dl>
+        <h2><a href="./../index.html" target="_self">Voltar</a></h2>
     </main>
+
+    <style>
+        body{
+    width: 100%;
+    text-align:left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#f0f0e8;
+}
+
+header{
+    background-color: #f64d27;
+    text-align: center;
+    padding: 35px;
+    margin-top: -10px;
+    margin-left: -7px;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    text-align: center;
+}
+
+dt{
+    color: darkcyan;
+}
+
+main{
+    width: 40%;
+    margin-left: 30%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 740px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: 2px solid rgba(128, 128, 128, 0.384);
+}
+    
+footer{
+    background-color: teal;
+    padding: 5px;
+    width: 1896px;
+    color:white;
+    text-align: center;
+    top: 300px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+}
+    </style>
+
     <footer>
-        <b><p>Desenvolvido por Isabella Alves</p></b>
+        <b>
+            <p>Desenvolvido por Isabella Alves</p>
+        </b>
     </footer>
 </body>
+
 </html>
