@@ -12,7 +12,9 @@
 <body>
     <header>
         <h1>Funções Git</h1>
+        <img src="./../img/Git-Icon-Black.png" alt="">
     </header>
+
     <main>
         <h2>Git Remote</h2>
         <p>Mostra onde os links estão localizados (ex:na main).</p>
@@ -60,65 +62,88 @@
             <dt>Git commit -amend -m""</dt>
             <dd>Troca a mensagem do commit anterior.</dd>
         </dl>
+        <h2>Como realizar um commit</h2>
+        <ol>
+            <li>Git Init</li>
+            <li>git log (ou qualquer outra função similar)</li>
+            <li>git remote add(link do repertório github)</li>
+            <li>git commit -m "mensagem sobre arquivo etc"</li>
+            <li>git push origin main</li>
+        </ol>
+        <img src="./../img/git.png" alt="">
         <h2><a href="./../index.html" target="_self">Voltar</a></h2>
     </main>
 
     <style>
-        body{
-    width: 100%;
-    text-align:left;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color:#f0f0e8;
-}
+        body {
+            width: 100%;
+            text-align: left;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #f0f0e8;
+        }
 
-header{
-    background-color: #f64d27;
-    text-align: center;
-    padding: 35px;
-    margin-top: -10px;
-    margin-left: -7px;
-}
+        main img {
+            width: 700px;
+            height: auto;
+            padding-left: 30px;
 
-h1{
-    color:white;
-}
+        }
 
-h2{
-    text-align: center;
-}
+        h1 {
+            color: white;
+            margin-top: 70px;
+            margin-right: 150px;
 
-dt{
-    color: darkcyan;
-}
+            padding: 5px;
+        }
 
-main{
-    width: 40%;
-    margin-left: 30%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 10px;
-    height: 740px;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    border: 2px solid rgba(128, 128, 128, 0.384);
-}
-    
-footer{
-    background-color: teal;
-    padding: 5px;
-    width: 1896px;
-    color:white;
-    text-align: center;
-    top: 300px;
-    margin-bottom: -20px;
-    margin-left: -10px;
-}
+        h2 {
+            text-align: center;
+        }
+
+        dt {
+            color: darkcyan;
+        }
+
+        main {
+            width: 40%;
+            margin-left: 30%;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            height: 1200px;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            border: 2px solid rgba(128, 128, 128, 0.384);
+        }
+
+
+        footer {
+            background-color: teal;
+            padding: 5px 5px 10px 800px;
+            color: white;
+            text-align: center;
+            margin-top: 2%;
+            display: flex;
+        }
+
+        footer img {
+            width: 50px;
+            height: 50px;
+            padding: 4px;
+            margin-left: 30px;
+            background-color: whitesmoke;
+            border-radius: 35%;
+        }
     </style>
 
     <footer>
         <b>
             <p>Desenvolvido por Isabella Alves</p>
         </b>
+        <img src="../img/face.png" alt="">
+        <img src="../img/instagram-icon.png" alt="">
+        <img src="../img/whats.png" alt="">
     </footer>
 </body>
 

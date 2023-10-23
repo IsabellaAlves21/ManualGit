@@ -5,11 +5,23 @@ body{
     background-color:#f0f0e8;
 }
 
-header{
+header {
+    display: flex;
     background-color: #f64d27;
-    text-align: center;
-    padding: 50px;
+    padding: 5px 5px 10px 866px;
+    margin: auto;
 }
+
+
+header img {
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+
+}
+
 
 h1{
     color:white;
@@ -28,13 +40,26 @@ main{
     margin-left: 30%;
 }
     
-footer{
-    background-color: teal;
-    padding: 5px;
-    color:white;
-    text-align: center;
-    top: 300px;
+
+
+footer img {
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    margin-left: 30px;
+    background-color:whitesmoke;
+    border-radius: 35%;
 }
+
+footer {
+    background-color: teal;
+    padding: 5px 5px 10px 800px;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    display: flex;
+}   
+
 
 a{
     text-decoration: none;
