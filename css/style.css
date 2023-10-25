@@ -29,11 +29,6 @@ header img {
 
 }
 
-
-h1{
-    color:white;
-}
-
 h2{
     text-align: center;
 }
@@ -41,13 +36,6 @@ h2{
 dt{
     color: darkcyan;
 }
-
-main{
-    width: 40%;
-    margin-left: 30%;
-}
-    
-
 
 footer img {
     width: 50px;
@@ -58,17 +46,7 @@ footer img {
     border-radius: 35%;
 }
 
-footer {
-    background-color: teal;
-    padding: 5px 5px 10px 800px;
-    color: white;
-    text-align: center;
-    margin-top: 2%;
-    display: flex;
-}   
-
-
-a{
+a {
     text-decoration: none;
 }
 
@@ -94,10 +72,6 @@ h1 {
     padding: 5px;
 }
 
-h2 {
-    text-align: center;
-}
-
 dt {
     color: darkcyan;
 }
@@ -106,9 +80,9 @@ main {
     width: 40%;
     margin-left: 30%;
     background-color: white;
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
-    height: 1200px;
+    height: 1250px;
     margin-top: 2%;
 
     border: 2px solid rgba(128, 128, 128, 0.384);
@@ -131,4 +105,30 @@ body b a {
     border: 1px solid rgb(95, 95, 95);
     text-decoration: none;
     color: white;
+}
+
+main img {
+    width: 700px;
+    height: auto;
+    padding-left: 30px;
+
+}
+
+footer b{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-nova{
+    width: 40%;
+    margin-left: 30%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    height: 920px;
+    margin-top: 2%;
+
+    border: 2px solid rgba(128, 128, 128, 0.384);
 }
